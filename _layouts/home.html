@@ -2,6 +2,7 @@
 layout: articles
 titles:
   # @start locale config
+  hu      : &HU       Főoldal
   en      : &EN       Home
   en-GB   : *EN
   en-US   : *EN
@@ -28,10 +29,12 @@ show_title: false
 articles:
   data_source: paginator.posts
   article_type: BlogPosting
-  show_cover: false
-  show_excerpt: true
+  show_cover: true
+  show_excerpt: false
   show_readmore: true
   show_info: true
+  type: grid
+  size: sm
 ---
 <div class="layout--home">
   {%- include paginator.html -%}

@@ -1,6 +1,18 @@
 header:
   - titles:
       # @start locale config
+      hu      : &HU       Főoldal
+      en      : &EN       Home
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /index.html
+
+  - titles:
+      # @start locale config
+      hu      : &HU       Archívum
       en      : &EN       Archive
       en-GB   : *EN
       en-US   : *EN
@@ -27,6 +39,7 @@ header:
 
   - titles:
       # @start locale config
+      hu      : &HU       Rólunk
       en      : &EN       About
       en-GB   : *EN
       en-US   : *EN

@@ -20,15 +20,15 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : Your Site Title
+title   : Családi találkozó
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  Családi találkozó az esküvő után
 
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+lang: hu # the language of your site, default as "en"
+timezone: Europe/Budapest # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
 ## => Author and Social
@@ -55,8 +55,8 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: user_name/repo_name
-repository_tree: master
+repository: qbeer/familytree
+repository_tree: gh-pages
 
 
 ## => Paths
@@ -88,10 +88,10 @@ mathjax: # false (default), true
 mathjax_autoNumber: # false (default), true
 
 ## Mermaid
-mermaid: # false (default), true
+mermaid: true# false (default), true
 
 ## Chart
-chart: # false (default), true
+chart: true # false (default), true
 
 
 ## => Paginate
@@ -211,8 +211,8 @@ defaults:
       license: true
       aside:
         toc: true
-      show_edit_on_github: true
-      show_subscribe: true
+      show_edit_on_github: false
+      show_subscribe: false
       pageview: true
 
 

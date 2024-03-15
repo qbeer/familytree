@@ -1,6 +1,26 @@
 # @start locale config
 ## => English
 ########################
+hu: &HU
+  SUBSCRIBE               : "Feliratkozás"
+  READMORE                : "Tovább"
+  SEARCH                  : "Keresés"
+  CANCEL                  : "Mégse"
+  VIEWS                   : "Megtekintések"
+  LAST_UPDATED            : "Utoljára frissítve"
+  PREVIOUS                : "Előző"
+  NEXT                    : "Következő"
+  ARTICLE_DATE_FORMAT     : "%Y %b %d"
+  ARTICLE_LIST_DATE_FORMAT: "%b %d"
+  STATISTICS              : "[POST_COUNT] bejegyzés, [PAGE_COUNT] oldal."
+  LICENSE_ANNOUNCE        : "Ez a munka [LICENSE] licenc alatt áll."
+  POST_ON_GITHUB          : "Szerkesztés a Githubon"
+  FOLLOW_ME               : "Kövess engem a [NAME]-on."
+  FOLLOW_US               : "Kövess minket a [NAME]-on."
+  EMAIL_ME                : "Küldj nekem egy e-mailt."
+  EMAIL_US                : "Küldj nekünk egy e-mailt."
+  COPYRIGHT_DATES         : "2024"
+
 en: &EN
   SUBSCRIBE               : "Subscribe"
   READMORE                : "Read more"
